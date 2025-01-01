@@ -1,0 +1,39 @@
+{
+  "type": "library",
+  "name": "zero-to-prod/psr4-varname",
+  "description": "Generates a valid PSR-4 Compliant variable name from a string.",
+  "keywords": [
+    "psr4 varname",
+    "zero-to-prod",
+    "psr4-varname"
+  ],
+  "homepage": "https://github.com/zero-to-prod/psr4-varname",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "David Smith",
+      "email": "dave0016@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Zerotoprod\\Psr4VarName\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "suggest": {
+    "zero-to-prod/transformable": "Transform a class into different types.",
+    "zero-to-prod/data-model-factory": "Factories for a DataModel.",
+    "zero-to-prod/data-model": "Type-safe DTOs"
+  }
+}
