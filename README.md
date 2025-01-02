@@ -9,7 +9,7 @@
 [![Packagist Version](https://img.shields.io/packagist/v/zero-to-prod/psr4-varname?color=f28d1a)](https://packagist.org/packages/zero-to-prod/psr4-varname)
 [![License](https://img.shields.io/packagist/l/zero-to-prod/psr4-varname?color=pink)](https://github.com/zero-to-prod/psr4-varname/blob/main/LICENSE.md)
 [![wakatime](https://wakatime.com/badge/github/zero-to-prod/psr4-varname.svg)](https://wakatime.com/badge/github/zero-to-prod/psr4-varname)
-[![Hits-of-Code](https://hitsofcode.com/github/zero-to-prod//data-model-adapter-openapi30?branch=main)](https://hitsofcode.com/github/zero-to-prod//data-model-adapter-openapi30/view?branch=main)
+[![Hits-of-Code](https://hitsofcode.com/github/zero-to-prod/data-model-adapter-openapi30?branch=main)](https://hitsofcode.com/github/zero-to-prod/data-model-adapter-openapi30/view?branch=main)
 
 - [Introduction](#introduction)
 - [Requirements](#requirements)
