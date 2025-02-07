@@ -3,7 +3,7 @@
 namespace Tests\Unit;
 
 use Tests\TestCase;
-use Zerotoprod\Psr4VarName\VarName;
+use Zerotoprod\Psr4VarName\Psr4VarName;
 
 class ClassnameTest extends TestCase
 {
@@ -13,7 +13,7 @@ class ClassnameTest extends TestCase
      */
     public function generate($input, $expected): void
     {
-        $this->assertEquals($expected, VarName::generate($input));
+        $this->assertEquals($expected, Psr4VarName::generate($input));
     }
 
     public static function varNameProvider(): array
