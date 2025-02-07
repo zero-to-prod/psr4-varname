@@ -11,7 +11,7 @@ namespace Zerotoprod\Psr4VarName;
  * VarName::generate('weird%characters*in^name'); // 'weird_characters_in_name';
  * ```
  */
-class VarName
+class Psr4VarName
 {
     /**
      * Generates a valid PSR-4 Compliant variable name from a string.
