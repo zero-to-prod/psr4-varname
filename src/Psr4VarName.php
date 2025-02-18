@@ -10,11 +10,15 @@ namespace Zerotoprod\Psr4VarName;
  *
  * VarName::generate('weird%characters*in^name'); // 'weird_characters_in_name';
  * ```
+ *
+ * @link https://github.com/zero-to-prod/psr4-varname
  */
 class Psr4VarName
 {
     /**
      * Generates a valid PSR-4 Compliant variable name from a string.
+     *
+     * @link https://github.com/zero-to-prod/psr4-varname
      */
     public static function generate(string $input, ?string $separator = '_'): string
     {
@@ -34,7 +38,7 @@ class Psr4VarName
         }
 
         return preg_match('/^\d/', $output)
-            ? $separator . $output
+            ? $separator.$output
             : $output;
     }
 }
