@@ -15,6 +15,8 @@
 - [Introduction](#introduction)
 - [Requirements](#requirements)
 - [Installation](#installation)
+- [Documentation Publishing](#documentation-publishing)
+  - [Automatic Documentation Publishing](#automatic-documentation-publishing)
 - [Usage](#usage)
 - [Local Development](./LOCAL_DEVELOPMENT.md)
 - [Contributing](#contributing)
@@ -35,7 +37,40 @@ Install `Zerotoprod\Psr4VarName` via [Composer](https://getcomposer.org/):
 composer require zero-to-prod/psr4-varname
 ```
 
-This will add the package to your project’s dependencies and create an autoloader entry for it.
+This will add the package to your project's dependencies and create an autoloader entry for it.
+
+## Documentation Publishing
+
+You can publish this README to your local documentation directory.
+
+This can be useful for providing documentation for AI agents.
+
+This can be done using the included script:
+
+```bash
+# Publish to default location (./docs/zero-to-prod/psr4-varname)
+vendor/bin/zero-to-prod-psr4-varname
+
+# Publish to custom directory
+vendor/bin/zero-to-prod-psr4-varname /path/to/your/docs
+```
+
+### Automatic Documentation Publishing
+
+You can automatically publish documentation by adding the following to your `composer.json`:
+
+```json
+{
+    "scripts": {
+        "post-install-cmd": [
+            "zero-to-prod-psr4-varname"
+        ],
+        "post-update-cmd": [
+            "zero-to-prod-psr4-varname"
+        ]
+    }
+}
+```
 
 ## Usage
 
